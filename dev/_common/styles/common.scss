@@ -37,7 +37,7 @@ canvas{
 	height: 250px;
 	overflow: hidden;
 	position: relative;
-	background-color: white;
+	background-color: black;
 	-webkit-text-size-adjust: 100%;
 	opacity: 1;
 	cursor: pointer;
@@ -143,5 +143,9 @@ sup{
 	width: 36px;
 	height: 25px;
 	background-color: red;
+	opacity: 0;
+}
+
+#pn-casino-image{
 	opacity: 0;
 }
