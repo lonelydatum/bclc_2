@@ -28,9 +28,9 @@ function start(){
 	tl.set(".frame1", {opacity:1})
 	// tl.set(".t1",  {opacity:0} )	
 	
-	
+	tl.to(".t1", .2, {opacity:1}, "+=.5")
 	tl.add( flicker(".t1"), "+=.5" )
-	tl.to(".t1", .5, {opacity:0}, "+=2")
+	tl.to(".t1", .3, {opacity:0}, "+=2")
 
 	
 	tl.from([".t2", ".bg2"], .5, {opacity:0})	
@@ -40,7 +40,7 @@ function start(){
 	tl.from(".t3", .3, {opacity:0}, "+=.1")
 
 	tl.add("end")
-	tl.from(".cta", .3, {opacity:0}, "end")
+	
 	tl.from(".legal", .3, {opacity:0}, "end" )
 
 	
@@ -50,7 +50,7 @@ function start(){
 	tl.to(".logo", .3, {y:0}, "end" )
 	
 	
-
+	tl.from(".cta", .3, {opacity:0}, "+=.5")
 	
 	
 

@@ -109,6 +109,21 @@ window.addEventListener('load', creative.init.bind(creative));
 //   // add your animation js here
 // };
 
-export {creative}
+
+
+
+function flicker(el){
+  const tl = new TimelineMax({repeat:3})
+  tl.to(el, .035, {opacity:.5})
+  tl.to(el, .03, {opacity:1})
+
+  // const tl2 = new TimelineMax({repeat:1, repeatDelay:2})
+  // tl2.add(tl)
+  return tl
+}
+
+
+
+export {creative, flicker}
 
 

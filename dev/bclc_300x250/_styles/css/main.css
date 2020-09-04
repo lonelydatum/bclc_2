@@ -219,6 +219,10 @@ sup {
   opacity: 0;
 }
 
+.neon {
+  opacity: .1;
+}
+
 .frame1 {
   opacity: 0;
 }
